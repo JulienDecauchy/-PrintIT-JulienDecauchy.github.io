@@ -1,2 +1,1 @@
-# (PrintIT)JulienDecauchy.github.io
- Projet OC - Print IT
+# Print-It WebSite v.1
