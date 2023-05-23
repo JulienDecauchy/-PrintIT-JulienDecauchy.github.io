@@ -39,8 +39,8 @@ function ChangeSlide(sens) {
 }
 
 function slideDot_right(){
-    var dots = document.querySelectorAll(".dot");
-    var dot_active = document.querySelector(".dot_selected");
+    let dots = document.querySelectorAll(".dot");
+    let dot_active = document.querySelector(".dot_selected");
     dot_active.classList.remove("dot_selected");
     if(dot_active.nextElementSibling)
     	dot_active.nextElementSibling.classList.add("dot_selected");
@@ -49,8 +49,8 @@ function slideDot_right(){
 }
 
 function slideDot_left(){
-    var dots = document.querySelectorAll(".dot");
-    var dot_active = document.querySelector(".dot_selected");
+    let dots = document.querySelectorAll(".dot");
+    let dot_active = document.querySelector(".dot_selected");
     dot_active.classList.remove("dot_selected");
     if(dot_active.previousElementSibling)
 	dot_active.previousElementSibling.classList.add("dot_selected");
